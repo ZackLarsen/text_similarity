@@ -18,3 +18,9 @@ Example application for comparing similarity of different texts
 ```bash
 python compare_texts.py
 ```
+* Arguments that the user must supply are:
+1. Text #1
+1. Text #2
+1. True/False whether you want to preserve the order of the texts in comparing their similarity
+1. True/False whether you want to remove common words and focus on more specific proper nouns or descriptors
+1. True/False whether you want to remove punctuation marks in comparing the similarity of the texts
