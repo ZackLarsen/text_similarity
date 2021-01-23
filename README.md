@@ -19,8 +19,9 @@ Example application for comparing similarity of different texts
 python compare_texts.py
 ```
 * Arguments that the user must supply are:
-1. Text #1
-1. Text #2
-1. True/False whether you want to preserve the order of the texts in comparing their similarity
-1. True/False whether you want to remove common words and focus on more specific proper nouns or descriptors
-1. True/False whether you want to remove punctuation marks in comparing the similarity of the texts
+1. text_1: Text #1
+1. text_2: Text #2
+1. preserve_order: True/False whether you want to preserve the order of the texts in comparing their similarity
+1. remove_stopwords: True/False whether you want to remove common words and focus on more specific proper nouns or descriptors
+1. remove_punctuation: True/False whether you want to remove punctuation marks in comparing the similarity of the texts
+1. ngram_length: Length of the ngrams used to assess the order of sequences of words/tokens
