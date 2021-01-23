@@ -18,10 +18,10 @@ Example application for comparing similarity of different texts
 ```bash
 python compare_texts.py
 ```
-* Arguments that the user must supply are:
-1. text_1: Text #1
-1. text_2: Text #2
-1. preserve_order: True/False whether you want to preserve the order of the texts in comparing their similarity
-1. remove_stopwords: True/False whether you want to remove common words and focus on more specific proper nouns or descriptors
-1. remove_punctuation: True/False whether you want to remove punctuation marks in comparing the similarity of the texts
-1. ngram_length: Length of the ngrams used to assess the order of sequences of words/tokens
+* Arguments that the user must supply when prompted are:
+1. preserve_order: "Would you like to preserve the order of the words in making the comparison? True/False "
+1. remove_stopwords: "Would you like to remove common words? True/False "
+1. remove_punctuation: "Would you like to remove punctuation? True/False "
+1. ngram_length: "How long of an ngram would you like to use? Please enter 2 for bigrams or 3 for trigrams "
+1. text_1: "Please write the first text: "
+1. text_2: "Please write the second text: "
