@@ -14,7 +14,7 @@ Example application for comparing similarity of different texts
     * Lists, dictionaries, Counters, and zipped lists may be of use here.
 
 ## Instructions:
-* This program can be run as a command line application. It is built with python 3.8, so if the user has python 3.X+ installed, they can run the program at the command line and supply the input texts and the necessary arguments, and the similarity score will be printed to the terminal:
+* This program can be run as a command line application, contained in the python directory of this repo as compare_texts.py. It is built with python 3.8, so if the user has python 3.X+ installed, they can run the program at the command line and supply the input texts and the necessary arguments, and the similarity score will be printed to the terminal:
 ```bash
 python compare_texts.py
 ```
